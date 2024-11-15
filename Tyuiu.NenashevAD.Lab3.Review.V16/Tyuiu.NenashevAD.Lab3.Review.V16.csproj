@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SolveArray.Lib\SolveArray.Lib.csproj" />
+    <ProjectReference Include="..\SolveCalculate.Lib\SolveCalculate.Lib.csproj" />
+    <ProjectReference Include="..\SolveMathFirstExpression.Lib\SolveMathFirstExpression.Lib.csproj" />
+    <ProjectReference Include="..\SolveMathSecondExpression.Lib\SolveMathSecondExpression.Lib.csproj" />
+    <ProjectReference Include="..\SolveTabMathFuction.Lib\SolveTabMathFuction.Lib.csproj" />
+  </ItemGroup>
+
+</Project>
